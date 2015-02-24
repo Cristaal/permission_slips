@@ -8,7 +8,7 @@ studentRoster.factory('StudentsFactory', function StudentsFactory() {
     factory.studentName - null;
   };
 
-  factory.deleteStudent = function() {
+  factory.deleteStudent = function(student) {
     var index = factory.students.indexOf(student);
     factory.students.splice(index, 1);
   };
