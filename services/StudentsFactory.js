@@ -5,7 +5,7 @@ studentRoster.factory('StudentsFactory', function StudentsFactory() {
   factory.addStudent = function() {
     var student = { name: factory.studentName, permissionSlip: false };
     factory.students.push(student);
-    factory.studentName - null;
+    factory.studentName = null;
   };
 
   factory.deleteStudent = function(student) {
